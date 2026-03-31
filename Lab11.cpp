@@ -6,12 +6,10 @@ LAB 11
 /*This program asks the user for a file name and he program should read the contents of the file into an array then display the following data:
 
 The lowest number in the array
-
 The highest number in the array
-
 The total of the numbers in the array
-
 The average of the numbers in the array
+The standard deviation of the numbers in the array
 */
 
 #include <iostream>
@@ -86,6 +84,7 @@ void calculateStats(double arr[], int size)
     cout << "Standard Deviation: " << stdDeviation << endl;
 }
 
+// Controls the program and calls other functions 
 int main()
 {
     double numbers[SIZE];
